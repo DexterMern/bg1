@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>bg</title>
+    <style>
+        body{
+            background-color: #141414;
+        }
+        .square {
+            border-radius: 10%;
+            background-color:rgba(255, 255, 255, 0.777);
+            position: absolute;
+            bottom: -200px;
+            opacity: 0;
+            animation: sque 7s infinite;
+
+
+        }
+
+        .square-1 {
+            right: 10px;
+            width: 100px;
+            height: 100px;
+            animation-delay: 1s;
+        }
+
+        .square-2 {
+            right: 400px;
+            width: 100px;
+            height: 100px;
+            animation-delay: 3s;
+        }
+
+        .square-3 {
+            right: 800px;
+            width: 200px;
+            height: 200px;
+            animation-delay: 4s;
+        }
+
+        .square-4 {
+            right: 200px;
+            width: 60px;
+            height: 60px;
+            animation-delay: 5s;
+        }
+
+        .square-5 {
+            right: 1100px;
+            width: 50px;
+            height: 50px;
+            animation-delay: 2s;
+        }
+
+        .square-6 {
+            right: 600px;
+            width: 80px;
+            height: 80px;
+            animation-delay: 4s;
+        }
+
+        .square-7 {
+            right: 1400px;
+            width: 30px;
+            height: 30px;
+            animation-delay: 5s;
+        }
+
+        .square-8 {
+            right: 1200px;
+            width: 100px;
+            height: 100px;
+            animation-delay: 6s;
+        }
+
+        .square-9 {
+            right: 750px;
+            width: 100px;
+            height: 100px;
+            animation-delay: 3s;
+        }
+
+        .square-10 {
+            right: 1400px;
+            width: 100px;
+            height: 100px;
+            animation-delay: 4s;
+        }
+
+        @keyframes sque {
+            0% {
+                transform: rotate(180deg);
+                opacity: 0;
+            }
+            14%{
+                opacity: 0.5;
+            }
+            18%{
+                opacity: 0.7;
+            }
+            40%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 0;
+                transform: translateY(-1000px);
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="square square-1"></div>
+        <div class="square square-2"></div>
+        <div class="square square-3"></div>
+        <div class="square square-4"></div>
+        <div class="square square-5"></div>
+        <div class="square square-6"></div>
+        <div class="square square-7"></div>
+        <div class="square square-8"></div>
+        <div class="square square-9"></div>
+        <div class="square square-10"></div>
+    </div>
+</body>
+
+</html>
